@@ -69,8 +69,8 @@ Sheet: snp_concordance_patients
 - patients_match_percent - patients genotype concordance, maximal fraction of patient that have either 0/0 or 1/1 genotype in this position
  
 Sheet: mismatch_rate_population
--mismatch_carriers - fraction of mismatches in heterozygous variant carriers compared to concensus homozygous carriers haplotype (0/0 vs 1/1 or 1/1 vs 0/0) in this position
--mismatch_non-carriers - fraction of mismatches in non-carriers compared to concensus homozygous carriers haplotype (0/0 vs 1/1 or 1/1 vs 0/0) in this position
+- mismatch_carriers - fraction of mismatches in heterozygous variant carriers compared to concensus homozygous carriers haplotype (0/0 vs 1/1 or 1/1 vs 0/0) in this position
+- mismatch_non-carriers - fraction of mismatches in non-carriers compared to concensus homozygous carriers haplotype (0/0 vs 1/1 or 1/1 vs 0/0) in this position
 
 ------------------------------------------------------------------------
 
