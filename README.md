@@ -7,13 +7,6 @@ region of patients with thiamine-responsive megaloblastic anemia"**
 
 ------------------------------------------------------------------------
 
-## Repository structure
-
-├── analyse_haplotype.py\
-├── environment.yml\
-
-------------------------------------------------------------------------
-
 ## Overview
 
 This script performs haplotype reconstruction and mismatch rate analysis
