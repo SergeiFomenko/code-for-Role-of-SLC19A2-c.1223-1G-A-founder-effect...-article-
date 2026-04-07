@@ -9,10 +9,8 @@ region of patients with thiamine-responsive megaloblastic anemia"**
 
 ## Repository structure
 
-. ├── analyse_haplotype.py\
+├── analyse_haplotype.py\
 ├── environment.yml\
-├── annotation/\
-│ └── gene.bed
 
 ------------------------------------------------------------------------
 
