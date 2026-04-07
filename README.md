@@ -10,12 +10,13 @@ region of patients with thiamine-responsive megaloblastic anemia"**
 ## Overview
 
 This script performs haplotype reconstruction and mismatch rate analysis
-for a candidate founder variant using whole-genome sequencing data.
+for a candidate founder variant using whole-genome sequencing data. 
+Main step of analysis:
 
-It: - Identifies homozygous and heterozygous carriers of a target
-variant\
-- Constructs a consensus haplotype from homozygous patients\
-- Computes genotype concordance and mismatch rates\
+- Identifies homozygous and heterozygous carriers of a target
+variant
+- Constructs a consensus haplotype from homozygous patients
+- Computes genotype concordance and mismatch rates
 - Generates summary statistics and plot for region visualisation
 
 ------------------------------------------------------------------------
