@@ -16,7 +16,8 @@ Main steps of analysis:
 - Identifies homozygous and heterozygous carriers of a target
 variant
 - Constructs a consensus haplotype from homozygous patients
-- Computes genotype concordance and mismatch rates
+- Computes genotype concordance in homozygous patients.
+- Computest mismatch rate to consensus haplotype in heterozygous carriers and non-carriers of analysed variant individuals
 - Generates summary statistics and plot for region visualisation
 
 ------------------------------------------------------------------------
@@ -40,15 +41,7 @@ Required inputs:
 
 ### Haplotype construction
 
-The consensus haplotype is defined using variants that are: - uniformly
-homozygous (0/0 or 1/1) across all homozygous patients
-- heterozygous sites are excluded
-
-### Concordance in patients
-
--   patient_heterorate: fraction of patients with 0/1 genotype
--   patients_match_percent: maximal fraction sharing same homozygous
-    genotype
+The consensus haplotype is defined using variants that are uniformly homozygous (0/0 or 1/1) across all homozygous patients. Mean genotype concordance defined as maximal fraction of homozygous carriers sharing same homozygous genotype is calculated across region to make sure that homozygous carriers share the same haplotype.
 
 ### Mismatch rate
 
